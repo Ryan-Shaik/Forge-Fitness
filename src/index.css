@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-dm: "DM Sans", sans-serif;
+  
+  --color-acid: #b8ff57;
+  --color-acid-dark: #84cc16;
+  --color-forge: #000000;
+  --color-mid: #1a1a1a;
+  --color-muted: #444444;
+}
+
+@layer base {
+  body {
+    @apply bg-forge text-white font-dm antialiased;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-25%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
