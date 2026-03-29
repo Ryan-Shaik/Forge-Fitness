@@ -8,9 +8,9 @@ export const galleryItems = [
 ]
 
 export const plans = [
-  { name:"STANDARD", price:89, badge:null, features:["Full gym access","Group classes","App tracking","Locker room access","Online scheduling"] },
-  { name:"FORGE PRO", price:149, badge:"MOST CHOSEN", features:["Everything in Standard","Personal programming","2x PT sessions/month","Recovery suite access","Priority class booking","Monthly check-in call"] },
-  { name:"ELITE", price:249, badge:null, features:["Everything in Pro","Unlimited PT sessions","1-on-1 nutrition coaching","Private training bay","Concierge support","Guest passes (2/month)"] }
+  { name:"STANDARD", price:5000, badge:null, features:["Full gym access","Group classes","App tracking","Locker room access","Online scheduling"] },
+  { name:"FORGE PRO", price:10000, badge:"MOST CHOSEN", features:["Everything in Standard","Personal programming","2x PT sessions/month","Recovery suite access","Priority class booking","Monthly check-in call"] },
+  { name:"ELITE", price:36000, badge:null, features:["Everything in Pro","Unlimited PT sessions","1-on-1 nutrition coaching","Private training bay","Concierge support","Guest passes (2/month)"] }
 ]
 
 export const testimonials = [

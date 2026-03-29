@@ -232,7 +232,7 @@ export default function Contact() {
                     <MapPin className="w-4 h-4 text-acid" />
                     <p className="font-dm text-[10px] text-white/30 tracking-widest uppercase">Address</p>
                   </div>
-                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">123 Iron District, Downtown</h4>
+                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">12th floor,Rupayan Shopping Square,Sayem Sobhan Anvir Road, Bashundara R/A, , Dhaka, Bangladesh, 1229</h4>
                 </div>
 
                 <div className="group">
@@ -240,7 +240,7 @@ export default function Contact() {
                     <Clock className="w-4 h-4 text-acid" />
                     <p className="font-dm text-[10px] text-white/30 tracking-widest uppercase">Hours</p>
                   </div>
-                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">Mon–Fri: 5AM–11PM<br/>Sat–Sun: 6AM–10PM</h4>
+                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">Sat–Thur: 6:45 AM–10:45 PM<br/>Fri: 3 PM–10:45 PM</h4>
                 </div>
 
                 <div className="group">
@@ -248,7 +248,7 @@ export default function Contact() {
                     <Phone className="w-4 h-4 text-acid" />
                     <p className="font-dm text-[10px] text-white/30 tracking-widest uppercase">Phone</p>
                   </div>
-                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">+1 (555) FORGE-01</h4>
+                  <h4 className="font-bebas text-2xl text-white group-hover:text-acid transition-colors">+8801738-228808</h4>
                 </div>
               </div>
             </div>

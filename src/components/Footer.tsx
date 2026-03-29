@@ -3,9 +3,9 @@ import { Instagram, Facebook, Twitter } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { name: 'Instagram', icon: Instagram, href: '#instagram' },
-    { name: 'Facebook', icon: Facebook, href: '#facebook' },
-    { name: 'Twitter', icon: Twitter, href: '#twitter' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/forgefitbd?fbclid=IwY2xjawQ1omhleHRuA2FlbQIxMABicmlkETFyMFNVem0xekZoY2NWbEpnc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjDwZi4b5k07_dbNuFigRPZUj-Cj9NC5_Sew84loC8RxNKl0F6UXF5-0Nwm2_aem_LDR0IrYY68XoKGkkcPdUAQ' },
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61569993917138' },
+    
   ];
 
   return (

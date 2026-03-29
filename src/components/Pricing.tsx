@@ -140,9 +140,6 @@ export default function Pricing() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">
-          <span className="font-bebas text-xs tracking-[.2em] text-acid mb-4 block">
-            04 / INVESTMENT
-          </span>
           <h2 
             ref={headingRef}
             className="font-bebas text-[clamp(2.5rem,6vw,5rem)] text-white leading-none"
@@ -186,7 +183,7 @@ export default function Pricing() {
                   </h3>
                   <div className="flex items-baseline gap-1 mt-4">
                     <span className="font-bebas text-7xl text-white group-hover:text-acid transition-colors duration-500">
-                      ${plan.price}
+                      ৳{plan.price}
                     </span>
                     <span className="font-dm text-xl text-white/40 mb-2">/mo</span>
                   </div>

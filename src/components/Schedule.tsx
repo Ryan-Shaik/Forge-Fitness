@@ -74,9 +74,7 @@ export default function Schedule() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-20">
           <div>
-            <span className="font-bebas text-xs tracking-[.2em] text-acid mb-4 block">
-              03 / OPERATION HOURS
-            </span>
+
             <h2 className="font-bebas text-[clamp(2.5rem,6vw,5rem)] text-white leading-none">
               TRAINING <span className="text-acid italic">SCHEDULE</span>
             </h2>
@@ -85,7 +83,6 @@ export default function Schedule() {
             Precision timing for peak performance. Plan your assault on mediocrity.
           </p>
         </div>
-
         <div 
           ref={cardsRef}
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
